@@ -1,0 +1,592 @@
+[
+{
+  "id":0,
+  "sClass":1,
+  "qClass":2,
+  "qName":"您手脚发凉吗？",
+  "qSex":0,
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":1,
+  "sClass":1,
+  "qClass":2,
+  "qSex":0,
+  "qName":"您胃脘部、背部或腰膝部怕冷吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":2,
+  "sClass":1,
+  "qClass":2,
+  "qSex":0,
+  "qName":"您感到怕冷、衣服比别人穿得多吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":3,
+  "sClass":1,
+  "qClass":2,
+  "qSex":0,
+  "qName":"您吃（喝）凉的东西会感到不舒服或者怕吃（喝）凉东西吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":4,
+  "sClass":1,
+  "qClass":2,
+  "qSex":0,
+  "qName":"你受凉或吃（喝）凉的东西后，容易腹泻（拉肚子）吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":5,
+  "sClass":0,
+  "qClass":3,
+  "qSex":0,
+  "qName":"您感到手脚心发热吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":6,
+  "sClass":0,
+  "qClass":3,
+  "qSex":0,
+  "qName":"您感觉身体、脸上发热吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":7,
+  "sClass":0,
+  "qClass":3,
+  "qSex":0,
+  "qName":"您皮肤或口唇干吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":8,
+  "sClass":0,
+  "qClass":3,
+  "qSex":0,
+  "qName":"您口唇的颜色比一般人红吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":9,
+  "sClass":1,
+  "qClass":3,
+  "qSex":0,
+  "qName":"您容易便秘或大便干燥吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":10,
+  "sClass":0,
+  "qClass":3,
+  "qSex":0,
+  "qName":"您面部两侧潮红或偏红吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":11,
+  "sClass":0,
+  "qClass":3,
+  "qSex":0,
+  "qName":"您感到眼睛干涩吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":12,
+  "sClass":1,
+  "qClass":3,
+  "qSex":0,
+  "qName":"您活动量稍大就容易出虚汗吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":13,
+  "sClass":1,
+  "qClass":1,
+  "qSex":0,
+  "qName":"您容易气短（呼吸短促，接不上气)吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":14,
+  "sClass":1,
+  "qClass":1,
+  "qSex":0,
+  "qName":"您容易心慌吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":15,
+  "sClass":1,
+  "qClass":1,
+  "qSex":0,
+  "qName":"您容易头晕或站起时晕眩吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":16,
+  "sClass":0,
+  "qClass":[1,2],
+  "qSex":0,
+  "qName":"您比别人容易患感冒吗？",
+  "score":[0,0],
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":17,
+  "sClass":0,
+  "qClass":1,
+  "qSex":0,
+  "qName":"您喜欢安静、懒得说话吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":18,
+  "sClass":0,
+  "qClass":1,
+  "qSex":0,
+  "qName":"您活动后容易出虚汗吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":19,
+  "sClass":0,
+  "qClass":4,
+  "qSex":0,
+  "qName":"您感到胸闷或腹部胀满吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":20,
+  "sClass":0,
+  "qClass":4,
+  "qSex":0,
+  "qName":"您感到身体浑身不轻松或不爽快吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":21,
+  "sClass":0,
+  "qClass":4,
+  "qSex":0,
+  "qName":"您腹部肥满松软吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":22,
+  "sClass":0,
+  "qClass":4,
+  "qSex":0,
+  "qName":"您有额部油脂分泌多的现象吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":23,
+  "sClass":0,
+  "qClass":4,
+  "qSex":0,
+  "qName":"您上眼睑比别人肿（仍轻微隆起的现象）吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":24,
+  "sClass":0,
+  "qClass":4,
+  "qSex":0,
+  "qName":"您嘴里有黏黏的感觉吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":25,
+  "sClass":0,
+  "qClass":4,
+  "qSex":0,
+  "qName":"您平时痰多，特别是咽喉部总感到有痰堵着吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":26,
+  "sClass":1,
+  "qClass":4,
+  "qSex":0,
+  "qName":"您舌苔厚腻或有舌苔厚厚的感觉吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":27,
+  "sClass":0,
+  "qClass":5,
+  "qSex":0,
+  "qName":"您面部或鼻部有油腻感或者油亮发光吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":28,
+  "sClass":0,
+  "qClass":5,
+  "qSex":0,
+  "qName":"你容易生痤疮或疮疖吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":29,
+  "sClass":0,
+  "qClass":5,
+  "qSex":0,
+  "qName":"您感到口苦或嘴里有异味吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":30,
+  "sClass":1,
+  "qClass":5,
+  "qSex":0,
+  "qName":"您大便黏滞不爽、有解不尽的感觉吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":31,
+  "sClass":1,
+  "qClass":5,
+  "qSex":0,
+  "qName":"您小便时尿道有发热感、尿色浓（深）吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":33,
+  "sClass":1,
+  "qClass":5,
+  "qSex":1,
+  "qName":"您的阴囊部位潮湿吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":34,
+  "sClass":0,
+  "qClass":6,
+  "qSex":0,
+  "qName":"您的皮肤在不知不觉中会出现青紫瘀斑（皮下出血）吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":35,
+  "sClass":0,
+  "qClass":6,
+  "qSex":0,
+  "qName":"您两颧部有细微红丝吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":36,
+  "sClass":1,
+  "qClass":6,
+  "qSex":0,
+  "qName":"您身体上有哪里疼痛吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":37,
+  "sClass":0,
+  "qClass":6,
+  "qSex":0,
+  "qName":"您面色晦黯或容易出现褐斑吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":38,
+  "sClass":0,
+  "qClass":6,
+  "qSex":0,
+  "qName":"您容易有黑眼圈吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":39,
+  "sClass":0,
+  "qClass":6,
+  "qSex":0,
+  "qName":"您口唇颜色偏黯吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":40,
+  "sClass":1,
+  "qClass":8,
+  "qSex":0,
+  "qName":"您没有感冒时，也会打喷嚏吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":41,
+  "sClass":1,
+  "qClass":8,
+  "qSex":0,
+  "qName":"您没有感冒时也会鼻塞、流鼻涕吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":42,
+  "sClass":1,
+  "qClass":8,
+  "qSex":0,
+  "qName":"您有因季节变化、温度变化或异味等原因而咳喘的现象吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":43,
+  "sClass":1,
+  "qClass":8,
+  "qSex":0,
+  "qName":"您容易过敏（对药物、食物、气味、花粉或在季节交替、气候变化时）吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":44,
+  "sClass":1,
+  "qClass":8,
+  "qSex":0,
+  "qName":"您的皮肤容易起荨麻疹（风团、风疹块、风疙瘩）吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":45,
+  "sClass":1,
+  "qClass":8,
+  "qSex":0,
+  "qName":"您的皮肤因过敏出现过紫癜（紫红色瘀点、瘀斑）吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":46,
+  "sClass":0,
+  "qClass":8,
+  "qSex":0,
+  "qName":"您的皮肤一抓就红，并出现抓痕吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":47,
+  "sClass":0,
+  "qClass":7,
+  "qSex":0,
+  "qName":"您容易精神紧张、焦虑不安吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":48,
+  "sClass":0,
+  "qClass":7,
+  "qSex":0,
+  "qName":"您多愁善感、感情脆弱吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":49,
+  "sClass":0,
+  "qClass":7,
+  "qSex":0,
+  "qName":"您容易感到害怕或受到惊吓吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":51,
+  "sClass":0,
+  "qClass":7,
+  "qSex":0,
+  "qName":"您无缘无故叹气吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":52,
+  "sClass":1,
+  "qClass":7,
+  "qSex":0,
+  "qName":"您咽喉部有异物感，且吐之不出、咽之不下吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":53,
+  "sClass":0,
+  "qClass":0,
+  "qSex":0,
+  "qName":"您精力充沛吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":54,
+  "sClass":0,
+  "qClass":[0,1],
+  "qSex":0,
+  "qName":"您容易疲乏吗？",
+  "score":[0,0],
+  "clickIndex":-1,
+  "rev":[1,0]
+ },
+{
+  "id":55,
+  "sClass":0,
+  "qClass":[0,1],
+  "qSex":0,
+  "qName":"您说话声音无力吗？",
+  "score":[0,0],
+  "clickIndex":-1,
+  "rev":[1,0]
+ },
+{
+  "id":56,
+  "sClass":0,
+  "qClass":[0,7],
+  "qSex":0,
+  "qName":"您感到闷闷不乐吗？",
+  "score":[0,0],
+  "clickIndex":-1,
+  "rev":[1,0]
+ },
+{
+  "id":57,
+  "sClass":0,
+  "qClass":[0,2],
+  "qSex":0,
+  "qName":"您比一般人耐受寒冷（冬天的寒冷，夏天的冷空调、电扇）吗？",
+  "score":[0,0],
+  "clickIndex":-1,
+  "rev":[1,0]
+ },
+{
+  "id":58,
+  "sClass":1,
+  "qClass":0,
+  "qSex":0,
+  "qName":"您能适应外界自然和社会环境的变化吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":0
+ },
+{
+  "id":59,
+  "sClass":1,
+  "qClass":0,
+  "qSex":0,
+  "qName":"您容易失眠吗？",
+  "score":0,
+  "clickIndex":-1,
+  "rev":1
+ },
+{
+  "id":60,
+  "sClass":0,
+  "qClass":[0,6],
+  "qSex":0,
+  "qName":"您容易忘事（健忘）吗？",
+  "score":[0,0],
+  "clickIndex":-1,
+  "rev":[1,0]
+ }
+]

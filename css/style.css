@@ -1,0 +1,371 @@
+@charset "UTF-8";
+@import url(reset.css);
+body {
+  -webkit-user-select: none;
+  /*不允许用户执行选中操作*/
+  -webkit-font-size-adjust: none;
+  /*禁止调整文字大小*/
+  -webkit-tap-highlight-color: transparent;
+  /*点击时不出现半透明框*/ }
+
+body {
+  font-family: "微软雅黑"; }
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+/*iphone4*/
+@media screen and (max-width: 349px) and (min-width: 320px) {
+  html {
+    font-size: 62.5%; } }
+/*iphone6*/
+@media screen and (max-width: 413px) and (min-width: 350px) {
+  html {
+    font-size: 87.5%; } }
+/*iphone6*/
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 100%; } }
+/*==============================common style=======================================*/
+/*==========================main style start===================================*/
+.wrap {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+  .wrap header {
+    width: 100%;
+    height: 44px;
+    background: #1B1A1F;
+    line-height: 44px;
+    position: relative;
+    color: #fff;
+    text-align: center; }
+    .wrap header a {
+      color: #fff;
+      position: absolute;
+      font-size: 1.6rem;
+      font-weight: bold; }
+      .wrap header a:nth-child(1) {
+        display: none;
+        left: 1rem; }
+        .wrap header a:nth-child(1) i {
+          font-size: 2rem;
+          display: inline-block;
+          padding-right: .4rem; }
+      .wrap header a:nth-child(2) {
+        right: 1rem; }
+    .wrap header h1 {
+      font-weight: bolder;
+      font-size: 1.6rem; }
+  .wrap section.center {
+    width: 100%;
+    -webkit-flex: 1;
+    display: -webkit-flex;
+    -webkit-flex-direction: column; }
+    .wrap section.center > div {
+      width: 100%;
+      -webkit-flex: 1;
+      position: relative; }
+
+/*==========================main style end===================================*/
+/*==========================index style start===================================*/
+div.page1 {
+  background: url(img/bg.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  /*弹窗*/ }
+  div.page1 .p1_tip {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #000; }
+  div.page1 .start {
+    width: 9rem;
+    height: 3rem;
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    margin-left: -3.5rem;
+    bottom: 12%; }
+  div.page1 .box {
+    display: none;
+    width: 100%;
+    height: 25rem;
+    position: absolute;
+    top: 50%;
+    margin-top: -15rem;
+    left: 0;
+    z-index: 99; }
+    div.page1 .box .alert {
+      width: 80%;
+      height: 100%;
+      border-radius: 1rem;
+      background: url(img/alert.jpg) no-repeat;
+      background-size: 100% 100%;
+      margin: 0 auto;
+      position: relative; }
+      div.page1 .box .alert a.alert_close {
+        position: absolute;
+        top: 0;
+        right: 6.3%;
+        width: 2.1rem;
+        height: 2.5rem; }
+      div.page1 .box .alert a.alert_btn {
+        position: absolute;
+        bottom: 6%;
+        left: 31%;
+        width: 9rem;
+        height: 3rem; }
+      div.page1 .box .alert p {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 60%;
+        font-size: 1.4rem;
+        line-height: 1.8rem; }
+
+/*==========================index style end===================================*/
+/*==========================sex style start===================================*/
+div.page2 {
+  background: url(img/sex.jpg) no-repeat;
+  background-size: 100% 100%; }
+  div.page2 p {
+    width: 70%;
+    position: absolute;
+    bottom: 36%;
+    left: 15%;
+    display: -webkit-box; }
+    div.page2 p span {
+      display: block;
+      -webkit-box-flex: 1;
+      text-align: center; }
+      div.page2 p span input[type=radio] {
+        width: 1.5rem;
+        height: 1.5rem;
+        -webkit-appearance: none;
+        background: url(img/no.jpg) no-repeat;
+        background-size: 100%; }
+        div.page2 p span input[type=radio]:checked {
+          background: url(img/yes.jpg) no-repeat;
+          background-size: 100%; }
+  div.page2 > a {
+    position: absolute;
+    width: 9rem;
+    height: 3rem;
+    bottom: 25%;
+    left: 50%;
+    margin-left: -4rem; }
+
+/*==========================sex style end===================================*/
+/*==========================sick and food style start===================================*/
+.page3, .page4 {
+  background: url(img/sick.jpg) no-repeat;
+  background-size: 100% 100%; }
+  .page3 > div:nth-child(1), .page4 > div:nth-child(1) {
+    width: 80%;
+    margin: 21% auto 0; }
+    .page3 > div:nth-child(1) h1, .page4 > div:nth-child(1) h1 {
+      line-height: 3rem;
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: bolder;
+      color: #B51610; }
+    .page3 > div:nth-child(1) p, .page4 > div:nth-child(1) p {
+      width: 100%;
+      display: -webkit-box;
+      padding-top: .6rem; }
+      .page3 > div:nth-child(1) p span, .page4 > div:nth-child(1) p span {
+        display: block;
+        -webkit-box-flex: 1;
+        text-align: center; }
+        .page3 > div:nth-child(1) p span input[type=radio], .page4 > div:nth-child(1) p span input[type=radio] {
+          width: 1.5rem;
+          height: 1.5rem;
+          -webkit-appearance: none;
+          background: url(img/no.jpg) no-repeat;
+          background-size: 100%;
+          margin-right: .5rem;
+          vertical-align: middle; }
+          .page3 > div:nth-child(1) p span input[type=radio]:checked, .page4 > div:nth-child(1) p span input[type=radio]:checked {
+            background: url(img/yes.jpg) no-repeat;
+            background-size: 100%; }
+        .page3 > div:nth-child(1) p span i, .page4 > div:nth-child(1) p span i {
+          font-style: normal;
+          position: relative;
+          top: .2rem; }
+  .page3 > div:nth-child(2), .page4 > div:nth-child(2) {
+    width: 66%;
+    position: absolute;
+    top: 36%;
+    left: 22%;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap; }
+    .page3 > div:nth-child(2) span, .page4 > div:nth-child(2) span {
+      display: block;
+      padding: 0 .5rem;
+      height: 2rem;
+      line-height: 2rem;
+      margin: .3rem;
+      border-radius: .4rem;
+      border: 1px solid #ccc; }
+      .page3 > div:nth-child(2) span.on, .page4 > div:nth-child(2) span.on {
+        background: #F6514B;
+        color: #fff;
+        border-color: transparent; }
+  .page3 > a, .page4 > a {
+    position: absolute;
+    width: 9rem;
+    height: 3rem;
+    bottom: 24%;
+    left: 50%;
+    margin-left: -4rem; }
+
+/*==========================sick and food style end===================================*/
+/*==========================food style start===================================*/
+.page5 {
+  background: url(img/begin.jpg) no-repeat;
+  background-size: 100% 100%; }
+  .page5 ul {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 25%; }
+    .page5 ul li {
+      width: 50%;
+      float: left;
+      padding-left: 3rem;
+      line-height: 2.7rem; }
+      .page5 ul li input[type=checkbox] {
+        -webkit-appearance: none;
+        width: 1.5rem;
+        height: 1.5rem;
+        background: url(img/check.jpg) no-repeat;
+        background-size: 100%;
+        position: relative;
+        top: .4rem;
+        margin-right: .4rem; }
+        .page5 ul li input[type=checkbox]:checked {
+          background: url(img/checked.jpg) no-repeat;
+          background-size: 100%; }
+    .page5 ul h1 {
+      font-size: 2rem;
+      text-align: center;
+      color: #B51610;
+      font-weight: bolder; }
+  .page5 > a {
+    position: absolute;
+    width: 9rem;
+    height: 3rem;
+    bottom: 25%;
+    left: 50%;
+    margin-left: -4.2rem; }
+
+/*==========================food style end===================================*/
+/*==========================item style start===================================*/
+.item {
+  width: 100%;
+  -webkit-flex: 1;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+  .item h1.title {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    background: #fff;
+    font-size: 1.6rem; }
+    .item h1.title > a {
+      position: absolute;
+      left: 1rem;
+      font-size: 2.4rem; }
+  .item .bank_wrap {
+    -webkit-flex: 1;
+    width: 100%;
+    height: 100%;
+    position: relative; }
+    .item .bank_wrap .bp {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      padding: 2rem;
+      padding-bottom: 6rem;
+      background: url(img/bank.jpg) no-repeat;
+      background-size: 100% 100%;
+      display: -webkit-flex;
+      -webkit-flex-direction: column; }
+      .item .bank_wrap .bp:nth-child(1) {
+        z-index: 99; }
+      .item .bank_wrap .bp .btn {
+        width: 7.4rem;
+        height: 3rem;
+        position: absolute;
+        left: 50%;
+        margin-left: -3.4rem;
+        bottom: 7.5%; }
+      .item .bank_wrap .bp h1 {
+        height: 3rem;
+        padding-top: .3rem; }
+      .item .bank_wrap .bp p {
+        -webkit-flex: 1;
+        font-size: 1.4rem;
+        width: 100%;
+        height: 2.4rem;
+        line-height: 2.4rem;
+        display: -webkit-flex; }
+        .item .bank_wrap .bp p span {
+          display: block;
+          -webkit-flex: 1;
+          height: 2.4rem;
+          line-height: 2.4rem;
+          border: 1px solid #ccc;
+          text-align: center;
+          margin-right: 1rem;
+          border-radius: 6px; }
+          .item .bank_wrap .bp p span.on {
+            background: #F6514B;
+            color: #fff; }
+
+/*==========================item style end===================================*/
+/*==========================result style end===================================*/
+.container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+  .container header {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    position: relative; }
+    .container header > a {
+      position: absolute;
+      left: 10px;
+      top: 0; }
+    .container header > h1 {
+      font-size: 1.4rem; }
+  .container .result_main {
+    width: 100%;
+    -webkit-flex: 1;
+    padding-top: 10px; }
+    .container .result_main h3 {
+      width: 100%;
+      height: 50px;
+      line-height: 50px;
+      background: pink;
+      color: #fff;
+      padding-left: 50px;
+      font-size: 1.2rem; }
+    .container .result_main ul li {
+      padding: 0 10px; }
+      .container .result_main ul li label {
+        font-size: 1.2rem;
+        font-weight: bold; }
+      .container .result_main ul li p {
+        line-height: 30px; }
+
+/*==========================result style end===================================*/
